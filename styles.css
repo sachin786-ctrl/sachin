@@ -390,7 +390,7 @@ section { padding: 80px 0; }
 .education-year::after {
   content: '';
   position: absolute;
-  left: 72px; top: 15px;
+  left: 50px; top: 15px;
   width: 16px; height: 16px;
   background: var(--accent);
   border: 3px solid var(--bg-primary);
@@ -636,5 +636,5 @@ textarea { resize: vertical; min-height: 120px; }
   .modal-content { padding: 2rem; }
   .modal-buttons { flex-direction: column; }
   .footer-links { gap: 10px 16px; }
-  .back-to-top { bottom: 6rem; right: 2rem; }
+  .back-to-top { bottom: 1.5rem; right: 2rem; }
 }
